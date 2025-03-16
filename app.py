@@ -25,3 +25,14 @@ if st.button("Calculate Risk"):
                                                peritoneal_flap, lymphatic_embolization)
     st.success(f"Risk Score: {risk}")
     st.subheader(category)
+
+
+st.markdown(
+    """
+    ---
+    **© 2025 Tanvir Singh Sethi** and **Dr. Kainaat Shergill**  
+    All rights reserved. Unauthorized duplication is prohibited.
+    Git Repo:https://github.com/tanvirss13/calculate_lymphocele_risk
+    """,
+    unsafe_allow_html=True
+)
