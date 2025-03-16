@@ -2,6 +2,7 @@
 
 # Importing libraries
 import streamlit as st
+from risk_calc import calculate_lymphocele_risk
 
 st.title("Lymphocele Risk Stratification Tool")
 st.write("Estimate the risk of lymphocele formation after robotic prostatectomy.")
