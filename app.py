@@ -26,7 +26,7 @@ if st.button("Calculate Risk"):
     st.success(f"Risk Score: {risk}")
     st.subheader(category)
 
-st.caption(
+st.caption("""
         '1. Preoperative Assessment → Calculate risk score for each patient.\n'
            
         '2. Intraoperative Strategy → Use peritoneal flaps for high-risk patients.\n'
@@ -39,6 +39,7 @@ st.caption(
            '• Antibiotics + Drainage (for infected lymphoceles).\n'\
            '• Lymphatic Embolization (LE) or Surgical Unroofing for persistent cases.\n'
            ,
+           """
            unsafe_allow_html=True)
 st.markdown(
     """
