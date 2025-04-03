@@ -27,17 +27,17 @@ if st.button("Calculate Risk"):
     st.subheader(category)
 
 st.caption(
-        '1. Preoperative Assessment → Calculate risk score for each patient.\n'\
+        '1. Preoperative Assessment → Calculate risk score for each patient.\n'
            
-        '2. Intraoperative Strategy → Use peritoneal flaps for high-risk patients.\n'\
+        '2. Intraoperative Strategy → Use peritoneal flaps for high-risk patients.\n'
            
         '3. Postoperative Monitoring →\n'\
            '• Low risk: Routine follow-up.\n'\
            '• Moderate risk: Ultrasound monitoring at 2–4 weeks.\n'\
-           '• High risk: Drain placement or LE if necessary.\n'\
+           '• High risk: Drain placement or LE if necessary.\n'
         '4. Treatment of Symptomatic Cases →\n'\
            '• Antibiotics + Drainage (for infected lymphoceles).\n'\
-           '• Lymphatic Embolization (LE) or Surgical Unroofing for persistent cases.\n'\
+           '• Lymphatic Embolization (LE) or Surgical Unroofing for persistent cases.\n'
            ,
            unsafe_allow_html=True)
 st.markdown(
