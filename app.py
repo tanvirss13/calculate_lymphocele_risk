@@ -26,7 +26,18 @@ if st.button("Calculate Risk"):
     st.success(f"Risk Score: {risk}")
     st.subheader(category)
 
-
+st.caption("""
+        1. Preoperative Assessment → Calculate risk score for each patient.
+        2. Intraoperative Strategy → Use peritoneal flaps for high-risk patients.
+        3. Postoperative Monitoring →
+            • Low risk: Routine follow-up.
+            • Moderate risk: Ultrasound monitoring at 2–4 weeks.
+            • High risk: Drain placement or LE if necessary.
+        4. Treatment of Symptomatic Cases →
+            • Antibiotics + Drainage (for infected lymphoceles).
+            • Lymphatic Embolization (LE) or Surgical Unroofing for persistent cases.
+           """,
+           unsafe_allow_html=True)
 st.markdown(
     """
     ---
